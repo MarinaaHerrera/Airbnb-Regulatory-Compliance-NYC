@@ -1,15 +1,26 @@
-# NYC Airbnb Regulatory Compliance Analysis
+# NYC Airbnb Market Dynamics & Regulatory Compliance
 
-**Business Objective:**
-To analyze short-term rental data in New York City to identify regulatory compliance issues, pricing anomalies, and market trends.
+**Authors:** Marina Herrera & Angelina Ramola
 
-**Tech Stack:** Python, SQL, Tableau
+## Executive Summary
+This project analyzes the New York City short-term rental market to identify fraudulent activity and non-compliant listings. By leveraging Python for data exploration and anomaly detection, this analysis provides actionable insights into market dynamics, pricing irregularities, and hosts violating local housing regulations.
 
-**Key Insights:**
-* [Add your first major finding here, e.g., identifying illegal short-term listings]
-* [Add your second major finding here, e.g., price variance across boroughs]
+## Business Objective
+To build a data-driven framework that detects non-compliant Airbnb listings, enabling better regulatory oversight, protecting housing availability, and understanding the financial impact of fraudulent short-term rentals on the NYC real estate market.
 
-**Project Structure:**
-* Data Cleaning & EDA (Python/Jupyter Notebook)
-* Compliance Queries (SQL)
-* Executive Dashboard (Tableau)
+## Tech Stack & Tools
+* **Languages:** Python (Pandas, NumPy)
+* **Environment:** Jupyter Notebook
+* **Deliverables:** Technical Report, Executive Presentation Deck
+
+## Repository Structure
+This repository contains the complete lifecycle of the analysis, from raw data processing to executive-level business recommendations:
+
+* `NYCAirbnb_Fraud.ipynb`: The core Python notebook containing data cleaning, exploratory data analysis (EDA), and the logic used to flag non-compliant listings.
+* `Analyzing Airbnb Market Dynamics.pdf`: The comprehensive written report detailing the methodology, market context, and final business recommendations.
+* `DETECTING FRAUDULENT AND NON COMPLIANT AIRBNB LISTINGS IN NYC.pptx`: The slide deck designed for stakeholder presentation, highlighting the most critical data visualizations and strategic takeaways.
+
+## Key Methodologies
+* **Data Cleaning & Preprocessing:** Handling missing values, standardizing formatting, and preparing the dataset for analysis.
+* **Rule-Based Anomaly Detection:** Flagging listings that violate NYC's minimum-night stay regulations or involve single hosts managing suspiciously high numbers of properties.
+* **Exploratory Data Analysis (EDA):** Visualizing price distributions, neighborhood density, and review patterns to identify market outliers.
