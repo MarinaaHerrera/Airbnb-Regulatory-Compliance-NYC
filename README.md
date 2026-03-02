@@ -16,9 +16,9 @@ To build a data-driven framework that detects non-compliant Airbnb listings, ena
 ## Repository Structure
 This repository contains the complete lifecycle of the analysis, from raw data processing to executive-level business recommendations:
 
-* `NYCAirbnb_Fraud.ipynb`: The core Python notebook containing data cleaning, exploratory data analysis (EDA), and the logic used to flag non-compliant listings.
-* `Analyzing Airbnb Market Dynamics.pdf`: The comprehensive written report detailing the methodology, market context, and final business recommendations.
-* `DETECTING FRAUDULENT AND NON COMPLIANT AIRBNB LISTINGS IN NYC.pptx`: The slide deck designed for stakeholder presentation, highlighting the most critical data visualizations and strategic takeaways.
+* `nyc_airbnb_fraud_analysis.ipynb`: The core Python notebook containing data cleaning, exploratory data analysis (EDA), and the logic used to flag non-compliant listings.
+* `nyc_airbnb_market_report.pdf`: The comprehensive written report detailing the methodology, market context, and final business recommendations.
+* `nyc_airbnb_compliance_presentation.pptx`: The slide deck designed for stakeholder presentation, highlighting the most critical data visualizations and strategic takeaways.
 
 ## Key Methodologies
 * **Data Cleaning & Preprocessing:** Handling missing values, standardizing formatting, and preparing the dataset for analysis.
